@@ -23,5 +23,8 @@ module.exports = {
 
         const user = await services.create(body)
         response.body = user        
+    },
+    list: async ctx =>{
+        return "lista usuarios";
     }
 }
